@@ -9,8 +9,11 @@ public class Circle {
     }
 
     public double calculates() {
-        double S = Math.PI * (Math.pow(r, 2));
-        return S;
+        return Math.PI * (Math.pow(r, 2));
+    }
+
+    public double perimetr() {
+        return 2 * Math.PI * r;
     }
 
 }
